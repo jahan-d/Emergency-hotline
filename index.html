@@ -4,25 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Service</title>
+    <title>emergency-hotline</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div>
-        <div>
-            <div>
-                <img src="./assets/logo.png" alt="">
+    <nav>
+        <div class="w-auto h-auto flex flex-row justify-between items-center px-[60px] py-[7px]">
+            <div class="flex items-center gap-4">
+                <img class="h-[50px] w-[50px]" src="./assets/logo.png" alt="">
+                <h2 class="text-green-900 font-bold text-2xl leading-tight">emergency<br>Service</h2>
             </div>
-            <div>Emergency</br>
-                 Service
+            <div class="flex items-center gap-4 text-base">
+                <button class="btn btn-active bg-[#41FF6B1A] text-black rounded-[25px]">${} ❤️</button>
+                <button class="btn btn-active bg-[#41FF6B1A] text-black rounded-[25px]">${} <span><img
+                            class="w-[24px] h-[24px]" src="./assets/coin.png" alt=""></span></button>
+                <button class="btn btn-active bg-[#00A63E] text-white rounded-[25px]">${} Copy</button>
             </div>
         </div>
-        <div>
-            <div><button><img src="./assets/heart.png" alt=""></button></div>
-            <div><button><img src="./assets/coin.png" alt=""></button></div>
-            <div><button>Copy</button></div>
+    </nav>
+
+    <section>
+        <div class="flex flex-col items-center justify-center my-8 bg-[#013223] py-[20px]">
+            <img class="w-[92px] h-[92px]" src="./assets/logo-dark.png" alt="" class="w-24 h-24 mb-4">
+            <h2 class="font-bold text-white text-[40px] mb-2">Emergency Service Directory</h2>
+            <p class="text-[20px] font-semibold text-white">Government Emergency Services at Your Fingertip – A Project
+                by
+                Government of the People’s Republic of Bangladesh</p>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
